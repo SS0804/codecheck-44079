@@ -36,12 +36,13 @@ public class App {
 
 			int result = 0;
 			int cal = 0;
+			int len = list.size();
 
 			for (int i = 0, l = list.size(); i < l; i++) {
 
 				cal = convertAlphabettoNumber(list.get(i));
 
-				for (int len = list.size() ; len > 1; --len ) {
+				for (int t = len ; t > 1; --t ) {
 
 					cal = cal * 9;
 
@@ -50,6 +51,8 @@ public class App {
 				System.out.println("計算結果:" + cal);
 
 				result =+ cal;
+
+				--len;
 
 			}
 
