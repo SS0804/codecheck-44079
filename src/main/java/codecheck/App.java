@@ -33,9 +33,6 @@ public class App {
 			List<String> list = new ArrayList<String>();
 
 			for (int i = 0, l = param.length(); i < l; i++) {
-
-				System.out.println(String.valueOf(param.charAt(i)));
-
 				list.add(String.valueOf(param.charAt(i)));
 			}
 
