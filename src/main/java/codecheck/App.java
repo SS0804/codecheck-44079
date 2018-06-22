@@ -12,11 +12,6 @@ public class App {
 		subCommand = args[0];
 		param = args[1];
 
-		System.out.println("subCommand:" + subCommand);
-		System.out.println("param:" + param);
-
-
-
 		if (subCommand.equals("encode")) {
 
 //		    int parameter = Integer.parseInt(param);
@@ -32,18 +27,6 @@ public class App {
 //
 //
 //			}
-
-
-
-
-
-
-
-
-
-
-
-
 
 		} else if(subCommand.equals("decode")) {
 
