@@ -50,16 +50,13 @@ public class App {
 
 				System.out.println("計算結果:" + cal);
 
-				result =+ cal;
+				result += cal;
 
 				--len;
 
 			}
 
 			System.out.println(result);
-
-
-
 
 
 		} else if(subCommand.equals("align")) {
